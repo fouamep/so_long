@@ -30,11 +30,6 @@ void	check_width(char **map)
 		}
 		k.i++;
 	}
-	if (k.i == k.j)
-	{
-		write(1, "error\n", 6);
-		exit(1);
-	}
 }
 
 void	check_walls(char **map)
